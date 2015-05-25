@@ -13,6 +13,9 @@
 		04C00A841B12E00400BE7067 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04C00A831B12E00400BE7067 /* Images.xcassets */; };
 		04C00A871B12E00400BE7067 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 04C00A851B12E00400BE7067 /* LaunchScreen.xib */; };
 		04C00A931B12E00400BE7067 /* HexiumTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C00A921B12E00400BE7067 /* HexiumTests.swift */; };
+		04C00A9D1B13038400BE7067 /* Hexium_Test.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04C00A9C1B13038400BE7067 /* Hexium_Test.swift */; };
+		ECF314F2498996CF7E5F77C1 /* HexView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF3164CD480D88958311A92 /* HexView.swift */; };
+		ECF31DBBDE73B5DE1773CD43 /* HexiumGameController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECF3162112088AD70CA9AC70 /* HexiumGameController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,6 +39,9 @@
 		04C00A8C1B12E00400BE7067 /* HexiumTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HexiumTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04C00A911B12E00400BE7067 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		04C00A921B12E00400BE7067 /* HexiumTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HexiumTests.swift; sourceTree = "<group>"; };
+		04C00A9C1B13038400BE7067 /* Hexium_Test.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Hexium_Test.swift; sourceTree = "<group>"; };
+		ECF3162112088AD70CA9AC70 /* HexiumGameController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexiumGameController.swift; sourceTree = "<group>"; };
+		ECF3164CD480D88958311A92 /* HexView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HexView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -59,9 +65,12 @@
 		04C00A6E1B12E00400BE7067 = {
 			isa = PBXGroup;
 			children = (
+				04C00A9C1B13038400BE7067 /* Hexium_Test.swift */,
 				04C00A791B12E00400BE7067 /* Hexium */,
 				04C00A8F1B12E00400BE7067 /* HexiumTests */,
 				04C00A781B12E00400BE7067 /* Products */,
+				ECF3162112088AD70CA9AC70 /* HexiumGameController.swift */,
+				ECF3164CD480D88958311A92 /* HexView.swift */,
 			);
 			sourceTree = "<group>";
 		};
@@ -214,6 +223,8 @@
 			files = (
 				04C00A7F1B12E00400BE7067 /* ViewController.swift in Sources */,
 				04C00A7D1B12E00400BE7067 /* AppDelegate.swift in Sources */,
+				ECF31DBBDE73B5DE1773CD43 /* HexiumGameController.swift in Sources */,
+				ECF314F2498996CF7E5F77C1 /* HexView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -222,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				04C00A931B12E00400BE7067 /* HexiumTests.swift in Sources */,
+				04C00A9D1B13038400BE7067 /* Hexium_Test.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -409,6 +421,7 @@
 				04C00A981B12E00400BE7067 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		04C00A991B12E00400BE7067 /* Build configuration list for PBXNativeTarget "HexiumTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +430,7 @@
 				04C00A9B1B12E00400BE7067 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
